@@ -1,0 +1,101 @@
+body { background: black }
+
+* {
+  text-align: center;
+  color: black;
+}
+
+#Screen {
+  background: #ffffb3;
+  height: 400px;
+  width: 350px;
+  border-radius: 50px;
+  margin-top: -240px;
+  margin-left: -175px;
+  z-index: 1;
+}
+
+h1 {
+  font-family: 'Orbitron', sans-serif;
+  display: inline;
+  margin: 0 10%;
+}
+
+h1:active { 
+  border: 5px dotted black;
+  border-radius: 15px;
+}
+
+h2 {
+  width: 302.5px;
+  margin-left: -149px;
+  margin-top: -238px;
+  border-radius: 100px 100px 0 0;
+}
+
+h2, #Reset { background: linear-gradient(to right, #00ccff, #ff8080) }
+
+h3 { margin-top: 40% }
+
+h4 { 
+  margin-top: 10%;
+  display: none;
+}
+
+#PlayerScore, #ComputerScore, button { 
+  margin-top: -178px;
+  font-family: 'Orbitron', sans-serif;
+}
+
+h2, h3, h4, #PlayerTitle, #ComputerTitle, #Reset { font-family: 'Scope One', serif }
+
+p { width: 100px }
+
+#PlayerTitle, #ComputerTitle, #Reset { margin-top: -202.5px }
+
+#PlayerTitle, #PlayerScore { margin-left: -149px }
+
+#ComputerTitle, #ComputerScore { 
+  margin-left: 53px;
+  width: 100.5px;
+}
+
+h1, h4, button, #Reset { cursor: hand; cursor: pointer } 
+
+#Reset {
+  font-size: 20px;
+  margin-left: -48px;
+  height: 49px;
+  padding-top: 7.5px;
+}
+
+table {
+  margin-top: -150px;
+  margin-left: -150px;
+}
+
+table, #Screen, h2, p {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+}
+
+td {
+  border: 1px solid black;
+  padding: 0px;
+}
+
+button {
+  background: #ffffb3;
+  height: 100px;
+  width: 100px;
+  font-size: 60px;
+  border-style: none;
+  margin-top: -4px;
+}
+
+button[value='1'], #PlayerScore, #PlayerTitle { background: #00ccff }
+
+button[value='-1'], #ComputerScore, #ComputerTitle { background: #ff8080 }
+
+button:active { background: #ffffb3 }
