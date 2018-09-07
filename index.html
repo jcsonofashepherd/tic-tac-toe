@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Tic-Tac-Toe</title>
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="script.js" defer></script>
+  </head>
+  
+  <body>
+    <section id="Screen">
+      <h3>What do you want to play as?</h3>
+      <br>
+      <h1 id="X">X</h1>
+      <h1 id="O">O</h1>
+      <h4 id="nextGame">Next Game</h4>
+    </section>
+  
+    <section>
+      <h2>Tic-Tac-Toe</h2>
+      <p id="PlayerTitle">Player</p>
+      <p id="ComputerTitle">Computer</p>
+      <p id="PlayerScore">0</p>
+      <p id="ComputerScore">0</p>
+      <p id="Reset">Reset</p>
+    </section>
+    
+    <table>
+      <tr>
+        <td><button id="zero" class="board" value="0"></button></td>
+        <td><button id="one" class="board" value="0"></button></td>
+        <td><button id="two" class="board" value="0"></button></td>
+      </tr>
+      
+      <tr>
+        <td><button id="three" class="board" value="0"></button></td>
+        <td><button id="four" class="board" value="0"></button></td>
+      <td><button id="five" class="board" value="0"></button></td>
+      </tr>
+      
+      <tr>
+        <td><button id="six" class="board" value="0"></button></td>
+        <td><button id="seven" class="board" value="0"></button></td>
+        <td><button id="eight" class="board" value="0"></button></td>
+      </tr>
+    </table>
+  </body>
+</html>
